@@ -21,7 +21,7 @@ container.innerHTML = ''; // Clear old grid first
         cell.style.width = `${widthPercentage}%`;
         
         // Height still uses pixels to fill the 500px tall container
-        cell.style.height = `${500 / gridSize}px`;
+        cell.style.height = `${600 / gridSize}px`;
         
         container.append(cell);
 }}
