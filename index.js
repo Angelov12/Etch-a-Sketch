@@ -22,8 +22,15 @@ container.innerHTML = ''; // Clear old grid first
         
         // Height still uses pixels to fill the 500px tall container
         cell.style.height = `${600 / gridSize}px`;
+
+        //change the color of each square when we hover the mouse over it
+        cell.addEventListener("mouseover", () => {
+          cell.style.backgroundColor = "black";
+        });
+
         
         container.append(cell);
 }}
+
 
 generateGrid()
